@@ -71,9 +71,6 @@ INSERT INTO Subjects (subject_id, subject_name, dept_code) VALUES
 (1009, 'Probability', 50),
 (1010, 'Statistical Methods', 50);
 
-CREATE USER 'student456'@'localhost' IDENTIFIED BY 'securepass456';
-GRANT SELECT ON AcademicDB.Subjects TO 'student456'@'localhost';
-
 SELECT dept_title
 FROM Departments
 WHERE dept_code IN (
