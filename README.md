@@ -1,2 +1,2 @@
 # ADBMS_23BCS10878_KRG_3B
-Experiments for the ADMS
+This repository contains all the lab experiments and implementations related to Advanced Database Management Systems (ADBMS)
